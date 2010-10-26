@@ -10,7 +10,7 @@ class card_pkg{
 
 public:
 	card_pkg(factory_info& i){
-		_size = i.pkg_size; // ñá/ÉJÅ[Éh
+		_size = i.pkg_size; // ÔøΩÔøΩ/ÔøΩJÔøΩ[ÔøΩh
 		name = QString();
 	}
 	card_pkg(QString n, factory_info& i){
@@ -18,7 +18,7 @@ public:
 		name = n;
 	}
 	int size(){ return _size; }
-	void push_back(card& c){ _contents.push_back(c); }
+	void push_back(const card& c){ _contents.push_back(c); }
 	std::vector<card> contents(){ return _contents; }
 	QString toString()
 	{
