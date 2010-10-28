@@ -23,6 +23,7 @@
                    displayName="リソースファイル"
                    projectFiles="true"
                    kind="SOURCE_LOGICAL_FOLDER">
+      <itemPath>index2.qrc</itemPath>
       <itemPath>index2.ui</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
