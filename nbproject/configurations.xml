@@ -43,7 +43,7 @@
     <conf name="Debug" type="4">
       <toolsSet>
         <developmentServer>localhost</developmentServer>
-        <compilerSet>MinGW_Qt|MinGW</compilerSet>
+        <compilerSet>MinGW|MinGW</compilerSet>
         <platform>3</platform>
       </toolsSet>
       <qt>
@@ -54,9 +54,9 @@
     </conf>
     <conf name="Release" type="4">
       <toolsSet>
-        <developmentServer>localhost</developmentServer>
-        <compilerSet>MinGW_Qt|MinGW</compilerSet>
-        <platform>3</platform>
+        <developmentServer>m20001@192.168.11.100:22</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>4</platform>
       </toolsSet>
       <qt>
         <buildMode>1</buildMode>

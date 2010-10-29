@@ -22,7 +22,7 @@ AS=as.exe
 QMAKE=qmake.exe
 
 # Macros
-CND_PLATFORM=MinGW_Qt-Windows
+CND_PLATFORM=MinGW-Windows
 CND_CONF=Debug
 CND_DISTDIR=dist
 
@@ -62,7 +62,7 @@ FORCE:
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS} nbproject/qt-${CND_CONF}.mk
-	"${MAKE}" -f nbproject/qt-${CND_CONF}.mk dist/Debug/MinGW_Qt-Windows/index2.exe
+	"${MAKE}" -f nbproject/qt-${CND_CONF}.mk dist/Debug/MinGW-Windows/index2.exe
 
 build/Debug/%.o: nbproject/qt-Debug.mk
 	$(MAKE) -f nbproject/qt-Debug.mk "$@"
