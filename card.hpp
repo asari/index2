@@ -1,7 +1,8 @@
 #ifndef __CARD_HPP__
 #define __CARD_HPP__
 
-class card{
+class card
+{
 public:
 	card(int i, int t, QString n){
 		_id   = i;
